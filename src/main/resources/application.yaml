@@ -10,4 +10,4 @@ logging:
   level:
     root: warn
     maraisaferreira.com.git: info
-    flywaydb.org: info
+    org.flywaydb: info
