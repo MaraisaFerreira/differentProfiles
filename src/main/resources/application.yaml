@@ -1,3 +1,13 @@
 spring:
   application:
     name: DifferentProfiles
+  jackson:
+    default-property-inclusion: non_empty
+  profiles:
+    active: dev
+
+logging:
+  level:
+    root: warn
+    maraisaferreira.com.git: info
+    flywaydb.org: info
